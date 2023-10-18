@@ -1,0 +1,52 @@
+.container-phim{
+    width: 100%;
+    height: 100%;
+    min-height: 489px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phim{
+    width: 80vw;
+    height: 100%;
+}
+.list-phim{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item-phim{
+    width: 25%;
+    flex: 1 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inner-item{
+    display: block;
+    position: relative;
+    height: 100%;
+}
+.muangay{
+    padding: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.muangay button{
+    border: none;
+    height: 30px;
+    width: 70%;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    transition: transform ease .5s;
+}
+.muangay button:hover{
+    cursor: pointer;
+    transform:translateY(-8px) ;
+    box-shadow: 0 2px 5px 0px rgba(0,0,0,.3);
+}
